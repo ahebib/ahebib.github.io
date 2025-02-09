@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
